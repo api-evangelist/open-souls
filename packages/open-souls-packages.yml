@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/package/soul-engine
+notes: >-
+  Open Souls is a now-legacy open-source framework for building "AI souls"
+  (agentic, embodied digital beings). Its primary website (opensouls.org) is
+  parked and the hosted Soul Engine service is no longer operating, but the
+  first-party npm packages remain published. soul-engine is the framework +
+  CLI; socialagi is the older cognitive-functions library and is deprecated.
+packages:
+  - language: javascript
+    registry: npm
+    name: soul-engine
+    url: https://www.npmjs.com/package/soul-engine
+    install: npm install soul-engine
+    version: 0.1.67
+    published: '2024-09-15'
+    official: true
+    notes: >-
+      The Soul Engine development framework and CLI ("bunx soul-engine init",
+      "bunx soul-engine dev"). Framework for creating AI souls with
+      WorkingMemory, cognitiveSteps, and MentalProcesses abstractions.
+  - language: javascript
+    registry: npm
+    name: socialagi
+    url: https://www.npmjs.com/package/socialagi
+    install: npm install socialagi
+    version: 0.1.11
+    published: '2024-07-28'
+    official: true
+    deprecated: true
+    deprecation_note: Package no longer supported.
+    description: Cognitive Functions for AI Souls
+    notes: The original Open Souls library; superseded by soul-engine and deprecated on npm.

@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/opensouls/opensouls
+name: soul-engine
+description: >-
+  The Soul Engine CLI, distributed as the `soul-engine` npm package. Scaffolds
+  and runs local development of AI souls; documented via the opensouls/opensouls
+  repository README. The hosted Soul Engine cloud service is no longer operating.
+binary: soul-engine
+package: packages/open-souls-packages.yml
+install:
+  - method: npx
+    command: npx soul-engine <command>
+  - method: bunx
+    command: bunx soul-engine <command>
+  - method: npm
+    command: npm install soul-engine
+commands:
+  - name: init
+    invocation: bunx soul-engine init
+    description: Scaffold a new Open Souls project.
+  - name: dev
+    invocation: bunx soul-engine dev
+    description: >-
+      Run the local Soul Engine development environment (serves debugger/docs on
+      localhost:3001 by default).
+notes: >-
+  Command surface derived from the published opensouls/opensouls README. The
+  framework is legacy/archived; commands captured verbatim from documentation.
