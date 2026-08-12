@@ -49,6 +49,9 @@ tags:
 - Developer Tools
 apis: []
 common:
+- type: License
+  name: MIT
+  url: https://github.com/opensouls/opensouls/blob/main/LICENSE
 - type: GitHubOrganization
   url: https://github.com/opensouls
 - type: SourceCode
